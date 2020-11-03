@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
-  ROM_NAME: Generic
+  ROM_URL: https://doc-10-8o-docs.googleusercontent.com/docs/securesc/s76dsd0r0kl9usov2evfod3spoes3tli/8c4fj6s56v12ch602375jjn25993dmkv/1604386350000/05436494942329401109/05436494942329401109/12bXG-RuEcUTFTZgDk57M8ChZPyxuDGT9?e=download&authuser=0&nonce=pfqinrir5k8gc&user=05436494942329401109&hash=krkaf6uouseh1tr2vsvtdaj3ov7ggh3e
+  ROM_NAME: MIUI
   BUILD_AB: true
   BUILD_Aonly: false
-  ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  ROM_AONLY: ROM_MIUI_A.7z
+  ROM_AB: ROM_MIUI_AB.7z
 
 jobs:
   build:
